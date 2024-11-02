@@ -69,6 +69,19 @@
     letter-spacing: 1.87px;
 }
 
+/* Add hover elements */
+.ratings button:hover {
+    cursor: pointer;
+    background-color: #7c8798;
+    color: #ffffff;
+}
+
+#submit:hover {
+    cursor: pointer;
+    background-color: #ffffff;
+    color: #fc7614;
+}
+
 @media (min-width: 1440px) {
     .card {
         width: 412px;
