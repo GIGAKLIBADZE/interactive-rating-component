@@ -1,0 +1,119 @@
+.card {
+    width: 327px;
+    background-image: radial-gradient(circle at 50% 0, #232a34, #181e27 90%);
+    border-radius: 15px;
+    padding: 24px 22px 32px 24px;
+    margin: 154px auto 153px;
+}
+
+.star-container {
+    width: 40px;
+    height: 40px;
+    background-color: #262e38;
+    border-radius: 50%;
+    padding: 13.3px 12.7px 13.3px 13.3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.question {
+    font-size: 24px;
+    font-weight: bold;
+    color: #ffffff;
+    line-height: normal;
+    margin-top: 16px;
+}
+
+.info {
+    font-size: 14px;
+    font-weight: normal;
+    color: #969fad;
+    line-height: 1.57;
+    margin-top: 10px;
+}
+
+.ratings {
+    display: flex;
+    gap: 18px;
+    margin-top: 24px;
+}
+
+.ratings button {
+    width: 42px;
+    height: 42px;
+    background-color: #262e38;
+    padding: 9.3px 17.3px 8.7px 18.1px;
+    border-radius: 50%;
+    border: none;
+    font-size: 14px;
+    font-weight: bold;
+    color: #7c8798;
+    line-height: 1.71;
+    letter-spacing: 0.18px;
+}
+
+#submit {
+    font-family: 'Overpass', sans-serif !important;;
+    width: 279px;
+    height: 45px;
+    background-color: #fc7614;
+    border-radius: 22.5px;
+    padding: 12px 109px 12px 108px;
+    border: none;
+    margin-top: 24px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #ffffff;
+    line-height: normal;
+    letter-spacing: 1.87px;
+}
+
+@media (min-width: 1440px) {
+    .card {
+        width: 412px;
+        height: 416px;
+        background-image: radial-gradient(circle at 50% 0, #232a34, #181e27 89%);
+        border-radius: 30px;
+        padding: 32px 39px 32px 32px;
+        margin: 195px auto 189px;
+    }
+
+    .star-container {
+        width: 48px;
+        height: 48px;
+        padding: 16px 15.3px 16px 16px;
+    }
+
+    .question {
+        font-size: 28px;
+        margin-top: 30px;
+    }
+
+    .info {
+        font-size: 15px;
+        line-height: 1.6;
+        margin-top: 7px;
+    }
+
+    .ratings {
+        gap: 22px;
+    }
+
+    .ratings button {
+        width: 51px;
+        height: 51px;
+        padding: 13px 21px 14px 22px;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.2px;
+    }
+
+    #submit {
+        width: 343px;
+        height: 45px;
+        padding: 11px 138px 11px 137px;
+        font-size: 15px;
+        letter-spacing: 2px;
+    }
+}
