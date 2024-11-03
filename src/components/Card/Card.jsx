@@ -1,7 +1,9 @@
 import './Card.css';
 import star from '../../assets/images/icon-star.svg';
+import {useState} from "react";
 
-export default function Card() {
+export default function Card({setSubmit, rate, setRate}) {
+    const button = [1, 2, 3, 4, 5];
     return (
         <>
             <div className="card">
@@ -12,13 +14,11 @@ export default function Card() {
                 <p className="info">Please let us know how we did with your support request. 
                     All feedback is appreciated to help us improve our offering!</p>
                 <div className="ratings">
-                    <button id="one">1</button>
-                    <button id="two">2</button>
-                    <button id="three">3</button>
-                    <button id="four">4</button>
-                    <button id="five">5</button>
+                    {button.map((b) => {
+                        return <button key={b} onClick={() => setRate(b)} style={{backgroundColor: rate === b? "#7c8798" : "", color: rate === b? "#ffffff" : ""}}>{b}</button>
+                    })};
                 </div>
-                <button id="submit">SUBMIT</button>
+                <button id="submit" onClick={() => rate && setSubmit(true)}>SUBMIT</button>
             </div>
         </>
     )

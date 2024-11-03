@@ -1,0 +1,79 @@
+.thanks-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 327px;
+    background-image: radial-gradient(circle at 50% 0, #232a34, #181e27 90%);
+    border-radius: 15px;
+    padding: 34px 24px 37px;
+    margin: 154px auto 153px;
+}
+
+.thanks-img {
+    margin: auto;
+}
+
+.result-container {
+    width: 168px;
+    height: 32px;
+    background-color:#262e38;
+    border-radius: 22.5px;
+    padding: 5px 12px;
+    margin-top: 24px;
+}
+
+.result-container p {
+    font-size: 14px;
+    font-weight: normal;
+    color:#fc7614;
+    line-height: 1.57;
+}
+
+.thanks-msg {
+    font-size: 24px;
+    font-weight: bold;
+    color: #fff;
+    line-height: normal;
+    margin-top: 24px;
+}
+
+.thanks-detailed-msg {
+    font-size: 14px;
+    font-weight: normal;
+    color:#969fad;
+    line-height: 1.57;
+    margin-top: 10px;
+    text-align: center;
+}
+
+@media (min-width: 1440px) {
+    .thanks-card {
+        width: 412px;
+        background-image: radial-gradient(circle at 50% 0, #232a34, #181e27 89%);
+        border-radius: 30px;
+        padding: 45px 40px 45px 32px;
+        margin: 195px auto 189px;
+    }
+
+    .result-container {
+        width: 193px;
+        padding: 4px 19px 4px 20px;
+        margin-top: 32px;
+    }
+
+    .result-container p {
+        font-size: 15px;
+        line-height: 1.6;
+    }
+
+    .thanks-msg {
+        font-size: 28px;
+        margin-top: 32px;
+    }
+
+    .thanks-detailed-msg {
+        font-size: 15px;
+        line-height: 1.6;
+        margin-top: 7px;
+    }
+}
